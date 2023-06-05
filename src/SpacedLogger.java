@@ -18,7 +18,7 @@ class SpacedLogger implements Logger{
 
     public void Error(String two)
     {
-        String starInput = "****************";
+        String asteriskOutput = "****************";
         String result = "";
         for (int i = 0 ; i < two.length(); i++)
         {
@@ -28,8 +28,8 @@ class SpacedLogger implements Logger{
         }
 
         //print output
-        System.out.println(starInput);
+        System.out.println(asteriskOutput);
         System.out.println("***Error: " + result + "***");
-        System.out.println(starInput);
+        System.out.println(asteriskOutput);
     }
 }

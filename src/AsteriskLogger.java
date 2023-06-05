@@ -11,12 +11,12 @@ class AsteriskLogger implements Logger{
 
     public void Error(String two)
     {
-        String starInput = "****************";
+        String asteriskOutput = "****************";
         String result;
         result ="***" + "Error: " + two + "***";
 
-        System.out.println(starInput);
+        System.out.println(asteriskOutput);
         System.out.println(result);
-        System.out.println(starInput);
+        System.out.println(asteriskOutput);
     }
 }
